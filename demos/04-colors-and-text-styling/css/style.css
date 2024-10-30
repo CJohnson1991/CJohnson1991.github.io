@@ -1,0 +1,42 @@
+#first-paragraph {
+    color: blueviolet;
+    background-color: lightpink;
+    font-style: italic;
+    text-align: right;
+    text-decoration: overline;
+}
+
+#second-paragraph {
+    color: #3cdcc1fa;
+    background-color:black;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color:aliceblue;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+#span1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#span2 {
+    font-style: italic;
+    text-decoration: line-through
+}
+
+#span3 {
+    background-color: yellow;
+}
+
+#span4 {
+    font-family: sans-serif;
+    background-color: lightgreen;
+
+}
