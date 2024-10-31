@@ -1,0 +1,14 @@
+div {
+    border: 4px ridge pink;
+    margin: 20px 10px 30px 45px;
+    padding: 24px;
+    background-color: lightskyblue
+}
+
+p {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: lavender;
+    border-radius: 80%
+}
