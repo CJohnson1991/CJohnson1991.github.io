@@ -1,0 +1,66 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.dali1 img {
+    width: 100%;
+    display: block;
+}
+
+.dali1 {
+    margin: 20px;
+    border: ridge 10px;
+    border-color: black;
+    width: 100px;
+    padding: 8px;
+}
+
+.welcome {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 4px;
+    border: ridge 10px;
+    border-color: black;
+    width: 100px;
+}
+
+.dali2 img {
+    width: 100%;
+    display: block;
+}
+
+.dali2 {
+    border: ridge 10px;
+    border-color: black;
+    padding: 4px;
+    margin: 20px
+}
+
+.dali3 img {
+    width: 100%;
+    display: block;
+}
+
+.dali3 {
+    border: ridge 10px;
+    border-color: black;
+    margin: 50px;
+    padding: 4px;
+}
+
+.dali4 img {
+    width: 100%;
+    display: block;
+}
+
+.dali4 {
+    border: ridge 10px;
+    border-color: black;
+    margin: 50px;
+    padding: 4px;
+}
