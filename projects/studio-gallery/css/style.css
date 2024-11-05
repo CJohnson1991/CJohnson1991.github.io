@@ -18,6 +18,8 @@
     border-color: black;
     width: 100px;
     padding: 8px;
+    background-color: white;
+    box-shadow: inset 4px 4px 16px 4px grey;
 }
 
 .welcome {
@@ -27,6 +29,7 @@
     border: ridge 10px;
     border-color: black;
     width: 100px;
+    box-shadow: inset 4px 4px 16px 4px grey;
 }
 
 .dali2 img {
@@ -38,7 +41,10 @@
     border: ridge 10px;
     border-color: black;
     padding: 4px;
-    margin: 20px
+    margin: 20px;
+    background-color: white;
+    width: 100px;
+    box-shadow: inset 4px 4px 16px 4px grey;
 }
 
 .dali3 img {
@@ -49,18 +55,36 @@
 .dali3 {
     border: ridge 10px;
     border-color: black;
-    margin: 50px;
+    margin: 40px;
     padding: 4px;
+    background-color: white;
+    box-shadow: inset 4px 4px 16px 4px grey;
 }
 
-.dali4 img {
+.escher1 img {
     width: 100%;
     display: block;
 }
 
-.dali4 {
+.escher1 {
     border: ridge 10px;
     border-color: black;
     margin: 50px;
     padding: 4px;
+    background-color: white;
+    box-shadow: inset 4px 4px 16px 4px grey;
+}
+
+.escher2 img {
+    width: 100%;
+    display: block;
+}
+
+.escher2 {
+    width: 100px;
+    padding: 4px;
+    border: ridge 10px black;
+    background-color: white;
+    margin: 25px;
+    box-shadow: inset 4px 4px 16px 4px grey;
 }
