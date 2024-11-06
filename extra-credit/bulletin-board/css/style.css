@@ -6,3 +6,80 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+.post-it {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.post1 {
+    background-color:aqua;
+    margin: 20px;
+    padding: 35px;
+    width: 240px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 8px 8px 16px #28292a;
+    transform: rotate(5deg);
+    font-family: sans-serif;
+
+}
+
+.post2 {
+    border: solid 6px white;
+    box-shadow: 8px 8px 16px #28292a;
+}
+
+.post2 img{
+    width: 100%;
+    display: block;
+}
+
+.post3 {
+    background-color: pink;
+    margin: 15px;
+    padding: 35px;
+    width: 240px;
+    box-shadow: 8px 8px 16px #28292a;
+    transform: rotate(-5deg);
+    font-family: sans-serif;
+}
+
+.post4 {
+    background-color: #90dc90;
+    margin: 20px;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    box-shadow: 8px 8px 16px #28292a;
+    font-family: "Bonheur Royale", cursive;
+    width: 210px;
+    height: 210px;
+    text-align: center;
+}
+
+.post5 {
+    background-color: #ffff76;
+    margin: 40px;
+    padding: 35px;
+    width: 225px;
+    text-align: center;
+    box-shadow: 8px 8px 16px #28292a;
+    font-weight: bold;
+    transform: rotate(4deg);
+}
+
+.post6 {
+    border: solid 6px white;
+    box-shadow: 8px 8px 16px #28292a;
+    width: 250px;
+    margin: 40px;
+
+}
+
+.post6 img {
+    width: 100%;
+    display: block;
+}
