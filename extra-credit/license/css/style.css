@@ -6,3 +6,24 @@
 
     Good luck, and have fun!
 */
+
+#license {
+    width: 700px;
+    border: solid;
+    border-radius: 45px; 
+    padding: 24px;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#right-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#left-side #id-and-expiration {
+    display:inline-block
+}
