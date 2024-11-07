@@ -12,6 +12,20 @@
     border: solid;
     border-radius: 45px; 
     padding: 24px;
+    background: linear-gradient(to bottom right, #e4c34c, #e48c08);
+}
+
+H1 {
+    color: #1f1f8e;
+    font-size: 48px;
+    margin: 3px;
+}
+
+h4 {
+    color: white;
+    background-color: #1f1f8e;
+    padding: 12px;
+    text-align: center;
 }
 
 #left-side {
@@ -21,9 +35,36 @@
 
 #right-side {
     display: inline-block;
-    width: 65%;
+    width: 34%;
 }
 
-#left-side #id-and-expiration {
-    display:inline-block
+#id-and-expiration div {
+    display: inline-block;
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    width: 100px;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+}
+
+#signature {
+    text-align: center;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
 }
