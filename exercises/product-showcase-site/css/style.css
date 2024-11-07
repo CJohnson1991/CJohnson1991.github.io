@@ -29,10 +29,21 @@ body {
 .logo-container img {
     width: 240px;
     display: inline-block;
-    margin: 0px 250px 0px 250px;
+    margin: 50px;
 }
 
 .paragraph-container p {
     display: inline-block;
     color: white;
+}
+
+.logo-container,
+.paragraph-container {
+    display: inline-block;
+    width: 48%;
+}
+
+.cereals img {
+    margin-left: auto;
+    margin-right: auto;
 }
