@@ -10,7 +10,7 @@ span-i {
 
 #logo h1 {
     font-family: "Trade Winds", system-ui;
-    background-color: #be92ee;
+    padding: 5px;
 }
 
 #two-columns {
@@ -30,6 +30,7 @@ span-i {
 
 #sidebar-content h3 {
     text-align: center;
+    background-color: #d5baf3;
 }
 
 span {
