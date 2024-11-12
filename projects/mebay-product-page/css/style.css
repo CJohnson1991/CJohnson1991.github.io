@@ -9,7 +9,7 @@ body {
 
 #layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .fake-button-1 {
@@ -45,23 +45,23 @@ body {
     border: solid;
 }
 
-span1 {
+.m {
     color: #8810b7;
 }
 
-span2 {
-    color: rgb(39, 114, 255);
+.e {
+    color: #2772ff;
 }
 
-span3 {
+.b {
     color: green;
 }
 
-span4 {
+.a {
     color: #fad51a;
 }
 
-span5 {
+.y {
     color: red;
 }
 
