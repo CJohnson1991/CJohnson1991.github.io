@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container-1 {
+    background-color: #85cde5;
+    padding: 48px 0px;
+}
+
+.dark-container-1 {
+    background-color: #47087f;
+    padding: 48px 0px;
+    color: white;
+}
+
+.light-container-2 {
+    background-color: #85cde5;
+    padding: 48px 0px;
+}
+
+.dark-container-2 {
+    background-color: #47087f;
+    padding: 48px 0px;
+    color: white;
+}
