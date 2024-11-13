@@ -7,12 +7,14 @@ body {
     margin: 0px;
 }
 
-span-b {
+.b {
     font-weight: bold;
+    color: black;
 }
 
-span-i {
+.i {
     font-style: italic;
+    color: black;
 }
 
 #logo h1 {
