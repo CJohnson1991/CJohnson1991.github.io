@@ -13,6 +13,12 @@
     background-color: #e7f4e7;
     margin-top: 16px;
     margin: 16px;
+    box-shadow: 2px 2px 18px #000000b7;
+}
+
+.card-style-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 36px #000000c7;
 }
 
 .card-style-1 h2 {
@@ -20,10 +26,28 @@
 }
 
 .card-style-1 p {
-    
+    padding: 4px 24px;
 }
 
-.card-style-1
+.card-style-1 a {
+    color:#e7f4e7;
+    text-decoration: none;
+    border: 3px solid #008000;
+    display: block;
+    background-color: #008000;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    transition:
+        background-color 1s,
+        color 1s;
+     
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: #008000;
+}
 
 img {
     width: 100%;
