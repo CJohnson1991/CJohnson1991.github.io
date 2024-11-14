@@ -8,3 +8,24 @@
     of the setup.css styling if you do so.
 */
 
+.card-style-1 {
+    width: 350px;
+    background-color: #e7f4e7;
+    margin-top: 16px;
+    margin: 16px;
+}
+
+.card-style-1 h2 {
+    text-align: center;
+}
+
+.card-style-1 p {
+    
+}
+
+.card-style-1
+
+img {
+    width: 100%;
+    padding: 0px;
+}
