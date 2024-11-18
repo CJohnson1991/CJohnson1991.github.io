@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/misty-mountains.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#hero-1 h1 {
+    font-size: 60px;
+    padding: 15px;
+}
+
+#hero-1 a {
+    border: solid 2px #1f162c;
+    padding: 10px;
+    background-color:#1f162c;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition:
+        background-color 1s,
+        color 1s;
+}
+
+#hero-1 a:hover {
+    background-color: transparent;
+    color: #1f162c
+}
+
+#hero-2 {
+    background-image: url("../images/snowy-wasteland.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+#hero-2 a {
+    border: solid 2px #72c1f3;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    background-color:#72c1f3;
+    font-weight: bold;
+    transition:
+        background-color 1s,
+        color 1s;
+}
+
+#hero-2 a:hover {
+    background-color: transparent;
+    color: #72c1f3;
+}
+
+#hero-3 {
+    background-image: url("../images/stars-on-velvet.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+
+.hero-content a {
+    border: solid 2px white;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    background-color:white;
+    font-weight: bold;
+    transition:
+        background-color 1s,
+        color 1s;
+}
+
+.hero-content a:hover {
+    background-color: transparent;
+    color: white;
+}
