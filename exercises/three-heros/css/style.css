@@ -64,6 +64,7 @@ body {
     color: white;
     background-color:#72c1f3;
     font-weight: bold;
+    margin-right: 250px;
     transition:
         background-color 1s,
         color 1s;
@@ -97,10 +98,10 @@ body {
     left: 25%;
 }
 
-#hero-3 .hero-content a {
-    position: absolute;
-    left: 50%;
+.hero-content h2 {
+    margin-bottom: 40px;
 }
+
 
 .hero-content a {
     border: solid 2px white;
