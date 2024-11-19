@@ -98,6 +98,11 @@ h2 {
     left: 25%;
 }
 
+#hero-3 .hero-content a {
+    position: absolute;
+    left: 50%;
+}
+
 .hero-content a {
     border: solid 2px white;
     font-size: 20px;
