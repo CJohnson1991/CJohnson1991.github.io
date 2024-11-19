@@ -52,6 +52,12 @@ body {
     padding-right: 80px;
 }
 
+#hero-2 h1,
+h2 {
+    margin: 100px;
+    padding: 20px;
+}
+
 #hero-2 a {
     border: solid 2px #72c1f3;
     font-size: 20px;
