@@ -87,11 +87,14 @@ h2 {
     color: white;
     font-size: 50px;
 }
+.hero-content h2 {
+    color:white;
+}
 
 #hero-3 .hero-content {
     position: absolute;
-    top: 60%;
-    left: 20%;
+    top: 50%;
+    left: 25%;
 }
 
 .hero-content a {
