@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 86%;
+    left: 34%
+}
