@@ -28,3 +28,17 @@ body {
     color: white;
     margin-top: 80px;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    padding: 24px;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
