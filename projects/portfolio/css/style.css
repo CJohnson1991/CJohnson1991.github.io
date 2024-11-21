@@ -87,6 +87,10 @@ body {
     text-align: center;
 }
 
+#layout h1 {
+    font-family: "Quintessential", serif;
+}
+
 .horizontal-masonry-gallery {
     display: flex;
     flex-wrap: wrap;
