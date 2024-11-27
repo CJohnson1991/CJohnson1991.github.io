@@ -439,3 +439,13 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
+
+/* TABLET BREAKPOINT */
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+
+}
+
+/* MOBILE BREAKPOINT */
+@media screen and (max-width: 800px) {
+
+}
