@@ -58,3 +58,66 @@ body {
     padding-left: 12px
 }
 
+#navbar-top {
+    background: linear-gradient(
+        to bottom,
+        black 55%,
+        red
+    );
+    padding: 18px
+}
+
+#navbar-top h1 {
+    color: white;
+    display: flex;
+    justify-content: center
+}
+
+#navbar-center {
+    background: linear-gradient(
+    to bottom,
+    red,
+    #ff8800
+    );
+    padding: 12px;
+}
+
+.content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-column a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+#navbar-center #logo {
+    font-size: 36px;
+}
+
+.content-column .cta-button {
+    border: solid 2px white;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 24px
+}
+
+#navbar-bottom {
+    background: linear-gradient(
+        to bottom,
+        #ff8800,
+        black
+    );
+    padding: 10px;
+    
+}
+
+#navbar-bottom {
+
+}
+
