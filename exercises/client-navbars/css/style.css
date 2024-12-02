@@ -13,15 +13,17 @@ body {
     justify-content: flex-end;
 }
 
-#navbar a {
+#navbar .a-container {
     text-decoration: none;
     color: white;
     padding: 24px;
+    margin: 12px;
 }
 
-#navbar h2 {
+#navbar a {
     margin-right: auto;
     color: white;
+    margin-left: 12px
 }
 
 #navbar-2 {
@@ -34,9 +36,10 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    margin: 12px
 }
 
-#navbar-2 .cta-buttom {
+#navbar-2 .cta-button {
     background-color: white;
     color: #b388ec;
     border-radius: 36px;
@@ -46,10 +49,12 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    margin-bottom: 36px;
 }
 
-#navbar-2 h2 {
+#navbar-2 .logo {
     margin-right: auto;
     color: white;
     padding-left: 12px
 }
+
