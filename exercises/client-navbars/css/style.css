@@ -11,6 +11,7 @@ body {
     background: linear-gradient(to bottom, #877023, #6d4f0f);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #navbar .a-container {
@@ -18,18 +19,20 @@ body {
     color: white;
     padding: 24px;
     margin: 12px;
+    align-items: center;
 }
 
 #navbar a {
     margin-right: auto;
     color: white;
-    margin-left: 12px
+    margin-left: 12px;
 }
 
 #navbar-2 {
     background: linear-gradient(to bottom, #674ed5, #94cce8);
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #navbar-2 a {
@@ -50,6 +53,7 @@ body {
     text-align: center;
     margin-right: 24px;
     margin-bottom: 36px;
+    margin-top: 28px;
 }
 
 #navbar-2 .logo {
@@ -80,7 +84,6 @@ body {
     #ff8800
     );
     padding: 12px;
-    
 }
 
 .content-column {
@@ -88,12 +91,16 @@ body {
     justify-content: space-between;
 }
 
+#links {
+    align-content: center;
+}
+
 .content-column a {
     color: white;
     text-decoration: none;
     align-items: center;
     padding: 0px 18px;
-    font-size: 16px
+    font-size: 16px;
    
 }
 
