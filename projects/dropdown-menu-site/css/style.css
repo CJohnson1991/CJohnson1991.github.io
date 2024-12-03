@@ -82,3 +82,19 @@ body {
     background-position: center center;
 }
 
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+}
+
+#card {
+    background-color:#bddcf7b8;
+    padding: 24px;
+    margin: 12px;
+}
+
+#card h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
