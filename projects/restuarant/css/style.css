@@ -35,7 +35,7 @@ body {
 
 #hero {
     background-image: url(../images/veggies2.png);
-    height: 40vh;
+    height: 60vh;
     background-size: cover;
     background-position: center center;
 }
