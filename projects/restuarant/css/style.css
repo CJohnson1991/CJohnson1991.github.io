@@ -91,6 +91,14 @@ h1 {
     background-color: #87c53b;
     font-weight: bold;
     font-size: 24px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+
+#button a:hover {
+        background-color: transparent;
+        color:#87c53b;
 }
 
 .content-gallery-grid {
