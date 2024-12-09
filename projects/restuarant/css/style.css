@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -38,6 +40,10 @@ body {
     height: 60vh;
     background-size: cover;
     background-position: center center;
+}
+
+h1 {
+    font-family: "Matemasie", serif;
 }
 
 .content {
@@ -87,4 +93,80 @@ body {
     font-size: 24px;
 }
 
-@media screen
+.content-gallery-grid {
+    display: grid;
+}
+
+.items {
+    display: flex;
+}
+
+.content-gallery-grid h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#apps {
+    border: solid 2px #87c53b;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 12px;
+}
+
+#s-s {
+    border: solid 2px #87c53b;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 12px;
+}
+
+#entrees {
+    border: solid 2px #87c53b;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 12px;
+}
+
+#desserts {
+    border: solid 2px #87c53b;
+    border-radius: 24px;
+    padding: 12px;
+    margin: 12px;
+}
+
+.pics {
+    display: flex;
+    gap: 40px;
+
+}
+.pics img {
+    width: 200px;
+}
+
+@media screen and (max-width: 590px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-gallery-grid {
+        
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items img {
+        flex-direction: column;
+        align-items: center;
+    }
+}
