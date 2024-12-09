@@ -135,12 +135,23 @@ h1 {
 }
 
 .pics {
-    display: flex;
     gap: 40px;
 
 }
 .pics img {
     width: 200px;
+    margin-bottom: 24px;
+    display: flex;
+
+}
+
+
+#footer {
+    background: linear-gradient(
+        to bottom, 
+        #016394 30%, 
+        #87c53b);
+        padding: 32px;
 }
 
 @media screen and (max-width: 590px) {
