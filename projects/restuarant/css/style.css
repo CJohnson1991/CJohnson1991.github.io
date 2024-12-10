@@ -183,7 +183,7 @@ h1 {
 }
 
 #feature .pics {
-    height: 550px
+    height: 100%;
 }
 
 @media screen and (max-width: 590px) {
