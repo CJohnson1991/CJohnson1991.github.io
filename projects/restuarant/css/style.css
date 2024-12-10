@@ -182,6 +182,10 @@ h1 {
     color: white;    
 }
 
+#feature .pics {
+    height: 70vh
+}
+
 @media screen and (max-width: 590px) {
     #navbar {
         flex-direction: column;
